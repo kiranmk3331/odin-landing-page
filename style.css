@@ -11,7 +11,7 @@
   background-color: #4991bb;
   align-items: center;
   min-height: 10vh;
-  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.9);
   justify-content: space-around;
 }
 
@@ -33,7 +33,7 @@
 .first-page {
   min-height: 90vh;
   display: flex;
-  background-color: #2f66b3;
+  background-color: #5091ec;
   color: white;
   align-items: center;
   justify-content: center;
@@ -81,4 +81,43 @@
   width: 40rem;
   height: 20rem;
   border-radius: 0.3rem;
+}
+
+/* second */
+
+.second-page {
+  min-height: 100vh;
+  background-color: hsl(70, 43%, 87%);
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10rem 15rem 15rem 15rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+}
+
+.image-card img {
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
 }
